@@ -1,2 +1,3 @@
-npm install----->(this will install all the dependiencies from the package.json)
-npm run dev -----> (for checking the working)
+#setup
+npm install (this will install all the dependencies from the package.json)
+npm run dev (for checking the working)
