@@ -20,7 +20,7 @@ function App() {
             <Route index element={<p>LIST LIST LIST</p>} />
 
             <Route path="cities" element={<p>List of cities</p>} />
-
+            <Route path="cities/:id" element={<City />} />
             <Route path="countries" element={<p>Countries</p>} />
 
             <Route path="form" element={<p>Form</p>} />
