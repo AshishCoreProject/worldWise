@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
 import styles from "./Homepage.module.css";
 import PageNav from "../components/PageNav";
+import { useNavigate } from "react-router-dom";
 
 export default function Homepage() {
+  const navigate = useNavigate();
   return (
     <main className={styles.homepage}>
       <PageNav />
@@ -20,6 +22,14 @@ export default function Homepage() {
         <Link to="/app" className="cta">
           Start tracking now
         </Link>
+        <button
+          onClick={(e) => {
+            e.preventDefault();
+            navigate("app/cities");
+          }}
+        >
+          Go to Citites
+        </button>
       </section>
     </main>
   );

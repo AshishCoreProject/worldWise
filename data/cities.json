@@ -1,40 +1,76 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
-      "cityName": "Madrid",
+      "cityName": "Porreres",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
+      "date": "2023-09-14T07:17:22.571Z",
       "notes": "",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
+        "lat": "39.50404070558415",
+        "lng": "3.0761718750000004"
       },
-      "id": 17806751
+      "id": 98443199
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "cityName": "Lombez",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2023-09-14T07:21:09.333Z",
+      "notes": "",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
+        "lat": "43.45291889355465",
+        "lng": "0.8789062500000001"
       },
-      "id": 98443197
+      "id": 98443201
+    },
+    {
+      "cityName": "Tinlot",
+      "country": "Belgium",
+      "emoji": "🇧🇪",
+      "date": "2023-09-14T07:21:21.114Z",
+      "notes": "",
+      "position": {
+        "lat": "50.45750402042058",
+        "lng": "5.405273437500001"
+      },
+      "id": 98443203
+    },
+    {
+      "cityName": "Felidhoo",
+      "country": "Maldives",
+      "emoji": "🇲🇻",
+      "date": "2023-09-14T07:24:13.065Z",
+      "notes": "",
+      "position": {
+        "lat": "3.337953961416485",
+        "lng": "73.30078125000001"
+      },
+      "id": 98443205
+    },
+    {
+      "cityName": "Kavaratti",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2023-09-14T07:25:28.808Z",
+      "notes": "",
+      "position": {
+        "lat": "10.559962691205238",
+        "lng": "72.63544321060182"
+      },
+      "id": 98443206
+    },
+    {
+      "cityName": "Sapotra",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2023-09-14T11:50:52.397Z",
+      "notes": "",
+      "position": {
+        "lat": "26.155437968713574",
+        "lng": "76.86035156250001"
+      },
+      "id": 98443207
     }
   ]
 }
