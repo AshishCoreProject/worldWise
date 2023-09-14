@@ -35,6 +35,7 @@ export default function App() {
               >
                 <Route index element={<Navigate replace to="cities" />} />
 
+<<<<<<< HEAD
                 <Route path="cities" element={<CityList />} />
 
                 <Route path="countries" element={<CountriesList />} />
@@ -45,6 +46,16 @@ export default function App() {
           </BrowserRouter>
         </CitiesProvider>
       </AuthProvider>
+=======
+            <Route path="cities" element={<p>List of cities</p>} />
+            <Route path="cities/:id" element={<City />} />
+            <Route path="countries" element={<p>Countries</p>} />
+
+            <Route path="form" element={<p>Form</p>} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+>>>>>>> 853dcaa3d396618aac26af171ff83d29e89b797b
     </div>
   );
 }
